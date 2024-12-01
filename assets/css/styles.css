@@ -1,0 +1,389 @@
+@import url("https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap");
+.mlat {
+  border-radius: 5px 0px 0px 10px;
+  transition: ease-in-out;
+  transition-duration: 0.7s;
+  top: 0;
+  position: fixed;
+  height: 100vh;
+  width: 25%;
+  margin-left: 75%;
+  background-color: #212121;
+}
+@media (max-width: 750px) {
+  .mlat {
+    width: 35%;
+    margin-left: 65%;
+  }
+}
+@media (max-width: 550px) {
+  .mlat {
+    width: 45%;
+    margin-left: 55%;
+  }
+}
+@media (max-width: 360px) {
+  .mlat {
+    width: 50%;
+    margin-left: 50%;
+    height: 120vh;
+  }
+}
+
+.aparecer {
+  position: fixed;
+  border-left: 4px solid white;
+  border-radius: 0px;
+  margin-left: 100%;
+}
+
+.mtm {
+  display: flex;
+  width: 100%;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  height: 15%;
+  background-color: #444444;
+}
+
+.tmla {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: x-large;
+  font-family: jura;
+  height: 100%;
+  width: 100%;
+  border-bottom: 1px solid white;
+}
+@media (min-width: 1500px) {
+  .tmla {
+    font-size: 50px;
+  }
+}
+@media (max-width: 968px) {
+  .tmla {
+    font-size: larger;
+  }
+}
+@media (max-width: 360px) {
+  .tmla {
+    font-size: medium;
+  }
+}
+
+.vol {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+}
+
+.clo {
+  height: 55px;
+}
+@media (min-width: 1500px) {
+  .clo {
+    height: 80px;
+  }
+}
+@media (max-width: 680px) {
+  .clo {
+    height: 40px;
+  }
+}
+
+.t {
+  border-left: orange 2.5px solid;
+  padding-left: 5px;
+  font-size: 40px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, "Times New Roman", Times, serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  background-color: #D9D9D9;
+  height: 100px;
+}
+
+.pesquisa {
+  display: flex;
+  border-radius: 15px;
+  height: 35px;
+  margin-left: 15px;
+  width: 50%;
+  background-color: white;
+}
+
+.input {
+  outline: none;
+  background: none;
+  border: none;
+  width: 100%;
+  margin-left: 10px;
+  height: 100%;
+  font-size: large;
+}
+@media (min-width: 1550px) {
+  .input {
+    font-size: x-large;
+  }
+}
+
+.hamb {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin-right: 13px;
+  width: 50%;
+  height: 65px;
+}
+
+.ihamb {
+  height: 100px;
+}
+@media (min-width: 1550px) {
+  .ihamb {
+    height: 150px;
+    padding: 15px 0px 10px 15px;
+  }
+}
+
+.pesq {
+  margin-left: 10px;
+}
+
+.sec {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.nav2 {
+  margin-top: 4%;
+  background: #A2CFFE;
+  border-radius: 16px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.nav2 a {
+  display: flex;
+  justify-content: center;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  max-height: -moz-fit-content;
+  max-height: fit-content;
+  margin: 3%;
+  margin: 5%;
+  padding: 0;
+}
+.nav2 a .card1, .nav2 a .card2, .nav2 a .card3 {
+  color: white;
+  background-size: cover;
+  border-radius: 12px;
+  width: 25vw;
+  height: 15vw;
+  font-family: Arial;
+  letter-spacing: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2vw;
+  box-shadow: rgba(0, 0, 0, 0.466) 0px 2px 2px 2px;
+}
+@media (max-width: 884px) {
+  .nav2 a .card1, .nav2 a .card2, .nav2 a .card3 {
+    width: 222.33px;
+    height: 133.4px;
+  }
+}
+@media (max-width: 780px) {
+  .nav2 a .card1, .nav2 a .card2, .nav2 a .card3 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 500px) {
+  .nav2 a .card1, .nav2 a .card2, .nav2 a .card3 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 490px) {
+  .nav2 a .card1, .nav2 a .card2, .nav2 a .card3 {
+    font-size: 20px;
+  }
+}
+
+.com {
+  background-image: url("https://www.airway.com.br/wp-content/uploads/2017/12/B787_01-960x621.jpg");
+  background-size: cover;
+}
+
+.mili {
+  background-image: url("https://wallpapers.com/images/hd/4k-fighter-plane-x4ec34tdh2evagnv.jpg");
+  background-size: cover;
+}
+
+.tec {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSza_Tu979FIrsf4mAASfZl4i7tyW9XkkvGSg&s");
+  background-size: cover;
+}
+
+.destaque {
+  background-color: #A2CFFE;
+  font-family: "Jura";
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 1%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+}
+.destaque p {
+  color: black;
+  font-family: "Jura";
+  font-size: 50px;
+  text-align: center;
+}
+.destaque .titulododestaque {
+  color: white;
+  font-family: "Jura";
+  font-size: 50px;
+  text-align: center;
+}
+@media (max-width: 1250px) {
+  .destaque .titulododestaque {
+    font-size: 45px;
+  }
+}
+@media (max-width: 872px) {
+  .destaque .titulododestaque {
+    font-size: 35px;
+  }
+}
+@media (max-width: 1250px) {
+  .destaque .aviaodestaque {
+    font-size: 45px;
+  }
+}
+@media (max-width: 872px) {
+  .destaque .aviaodestaque {
+    font-size: 35px;
+  }
+}
+.destaque .alinha {
+  display: grid;
+  grid-template-areas: "imgem texto";
+  align-items: center;
+}
+@media (max-width: 1300px) {
+  .destaque .alinha {
+    grid-template-areas: "imgem" "texto";
+    justify-items: center;
+  }
+}
+.destaque .alinha .imagemdestaque {
+  display: flex;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+  grid-area: "imagem";
+  max-width: 320px;
+  max-height: 225px;
+}
+.destaque .alinha .imagemdestaque img {
+  border-radius: 10px;
+  min-width: 320px;
+  min-height: 225px;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  max-height: -moz-fit-content;
+  max-height: fit-content;
+}
+@media (max-width: 1300) {
+  .destaque .alinha .imagemdestaque img {
+    max-width: 25vw;
+    max-height: 12vw;
+  }
+}
+.destaque .alinha .textodestaque {
+  grid-area: "texto";
+  min-height: 225px;
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  margin-right: 20px;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.destaque .alinha .textodestaque .text {
+  font-size: large;
+  text-align: justify;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  margin: 2% 3% 0 3%;
+}
+.destaque .alinha .textodestaque .saibamais {
+  margin-left: 3%;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  padding: 3%;
+  line-height: 1.8;
+}
+nav li {
+  list-style: none;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: xx-large;
+}
+
+.grid {
+  display: grid;
+  grid-template-areas: "card card card";
+  justify-items: center;
+}
+.grid .card1 {
+  grid-area: "card1";
+}
+.grid .card2 {
+  grid-area: "card2";
+}
+.grid .card3 {
+  grid-area: "card3";
+}
+@media (max-width: 780px) {
+  .grid {
+    grid-template-areas: "card1" "card2" "card3";
+    justify-items: center;
+    align-items: center;
+  }
+}
+@media (max-width: 780px) and (max-width: 514px) {
+  .grid {
+    grid-template-areas: "card1" "card2" "card3";
+    justify-items: center;
+    align-items: center;
+  }
+}/*# sourceMappingURL=styles.css.map */
