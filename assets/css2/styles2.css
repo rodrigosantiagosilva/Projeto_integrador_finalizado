@@ -97,6 +97,8 @@ input {
 @media (max-width: 1154px) {
   .imagem {
     display: none;
+    margin: 0;
+    padding: 0;
   }
 }
 .imagem img {
