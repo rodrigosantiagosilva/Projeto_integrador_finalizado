@@ -181,6 +181,11 @@ input {
   display: flex;
   flex-direction: column;
 }
+@media (max-width: 1154px) {
+  .conteudo {
+    margin-left: 0;
+  }
+}
 .conteudo .responsiveimg {
   display: none;
   justify-content: center;
